@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 class Counter extends Component {
     render() { 
-        return <h1>Hello Valen</h1>;
+        return (
+            <div>
+            <h1>Hello Valen</h1>
+            <button>Increment</button>
+            </div>
+        );
     }
 }
  
